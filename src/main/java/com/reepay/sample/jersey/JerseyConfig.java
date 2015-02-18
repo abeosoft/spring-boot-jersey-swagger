@@ -11,6 +11,7 @@ public class JerseyConfig extends ResourceConfig {
     
     public JerseyConfig() {
         packages("com.reepay.sample.jersey.resource");
+        packages("com.wordnik.swagger.jersey.listing");
     }
     
 }
